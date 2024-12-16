@@ -1,0 +1,105 @@
+a:4:{s:8:"template";s:8:"bizsmart";s:4:"mods";a:13:{i:0;b:0;s:18:"nav_menu_locations";a:2:{s:18:"social-menu-footer";i:4;s:7:"primary";i:5;}s:18:"custom_css_post_id";i:1636;s:22:"bizsmart-layout-header";s:1:"1";s:22:"bizsmart-primary-color";s:7:"#0099f7";s:32:"bizsmart-primary-menu-item-color";s:7:"#0f0f0f";s:19:"bizsmart-pre-loader";b:1;s:22:"bizsmart-ib-blog-title";s:11:"Latest News";s:26:"bizsmart-ib-height-desktop";s:3:"530";s:23:"bizsmart-ib-title-color";s:7:"#ffffff";s:24:"bizsmart-show-breadcrumb";b:0;s:25:"bizsmart-ib-height-tablet";i:587;s:25:"bizsmart-ib-height-mobile";i:448;}s:7:"options";a:2:{s:9:"site_icon";s:1:"0";s:23:"nav_menus_created_posts";a:0:{}}s:6:"wp_css";s:1808:".bizsmart-inner-banner-wrapper:after {
+	display:none;
+}
+
+.rt-team-box-wrapper.layout-2 .rt-team-box-inner .rt-team-content {
+    justify-content: center;
+    flex: 0 0 60%;
+    display: flex;
+    flex-direction: column;
+}
+
+footer.footer-top-section{
+    padding-top: 70px;
+}
+body:not(.home) footer.footer-top-section  {
+	padding-top: 30px;
+}
+
+.elementor-heading-title {
+	line-height:1.7;
+}
+
+.rt-form-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+input.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required {
+  font-size: 16px;
+    background-color: #fafafa;
+    font-weight: 400;
+    font-family: 'Poppins';
+    padding: 15px;
+	    width: 100%;
+	border: 1px solid #E6E6E6;
+
+}
+
+span.wpcf7-form-control-wrap.your-name {
+	width:32%;
+}
+span.wpcf7-form-control-wrap.your-email {
+		width:32%;
+
+}
+span.wpcf7-form-control-wrap.your-phone {
+		width:32%;
+
+}
+
+textarea.wpcf7-form-control.wpcf7-textarea {
+	 font-size: 16px;
+    background-color: #fafafa;
+    font-weight: 400;
+    font-family: 'Poppins';
+    padding: 15px;
+	    width: 100%;
+	    height: 160px;
+	border: 1px solid #E6E6E6;
+
+}
+
+input.wpcf7-form-control.wpcf7-submit {
+	    padding: 18px 45px;
+cursor:pointer;
+	background-color: #0099f7;
+    color: #fff;
+    font-weight: 400;
+    font-family: 'Poppins';
+    font-size: 16px;
+    display: flex;
+    margin: 25px auto;
+	border-radius:2px;
+}
+
+input.wpcf7-form-control.wpcf7-submit:hover {
+	border-radius:2px;
+	background-color:#fff;
+	color:#0099f7;
+		border: 1px solid #E6E6E6;
+
+}
+
+@media(max-width:768px){
+	.rt-form-row {
+		flex-direction:column;
+}
+	span.wpcf7-form-control-wrap.your-name {
+			margin-top:15px;
+
+	width:100%;
+}
+span.wpcf7-form-control-wrap.your-email {
+		margin-top:15px;
+
+	width:100%;
+
+}
+span.wpcf7-form-control-wrap.your-phone {
+	margin-top:15px;
+	width:100%;
+
+}
+}
+";}

@@ -1,0 +1,75 @@
+
+---Downloaded files---
+The import files for: Woo Boost Dark ( Ecommerce )  were successfully downloaded!
+Initial max execution time = 30
+Files info:
+Site URL = http://woocommerce.project:7777
+Data file = /Volumes/MachntoshHD/Documents/DeveloperSD/project/php/W/woocommerce.com/wp-content/uploads/2024/12/demo-content-import-file_2024-12-10__16-44-24.xml
+Widget file = /Volumes/MachntoshHD/Documents/DeveloperSD/project/php/W/woocommerce.com/wp-content/uploads/2024/12/demo-widgets-import-file_2024-12-10__16-44-24.json
+Customizer file = /Volumes/MachntoshHD/Documents/DeveloperSD/project/php/W/woocommerce.com/wp-content/uploads/2024/12/demo-customizer-import-file_2024-12-10__16-44-24.dat
+Redux files:
+not defined!
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+

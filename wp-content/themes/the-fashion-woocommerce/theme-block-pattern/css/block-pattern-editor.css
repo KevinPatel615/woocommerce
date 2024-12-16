@@ -1,0 +1,92 @@
+.banner-section .banner-content p, 
+.banner-section .banner-btn1 .wp-block-button__link,
+.banner-section .banner-btn2 .wp-block-button__link,
+.fashion-section .fashion-image .wp-block-cover__inner-container p,
+.fashion-section .fashion-mid-image .wp-block-cover__inner-container p,
+.fashion-section .fashion-mid-image .wp-block-buttons .wp-block-button__link{
+    font-family: 'ABeeZee', sans-serif;
+}
+.banner-section .banner-content h1,
+.fashion-section .fashion-image .wp-block-cover__inner-container h2, 
+.fashion-section .fashion-mid-image .wp-block-cover__inner-container h2{
+    font-family: 'Playfair Display', serif;
+}
+/* Banner Section */
+.banner-section .banner-content{
+    margin-left: 27% !important;
+}
+.banner-section .banner-content h1, 
+.banner-section .banner-content p
+.fashion-section .wp-block-columns{
+    margin-top: 10px;
+}
+.banner-section .banner-content p{
+    line-height: 1.8;
+}
+.banner-section .banner-btn1, .banner-section .banner-btn2{
+    display: inline-block !important;
+    margin: 0;
+}
+.banner-section .banner-btn1 .wp-block-button__link{
+    border: 2px solid #fff;
+    padding: 8px 15px;
+    margin-right: 15px;
+}
+.banner-section .banner-btn1 .wp-block-button__link:hover{
+    background: #D49E8D !important;
+    border: 2px solid transparent;
+}
+.banner-section .banner-btn2 .wp-block-button__link, .fashion-section .fashion-mid-image .wp-block-buttons .wp-block-button__link{
+    padding: 8px 15px;
+    border: 2px solid transparent;
+}
+.banner-section .banner-btn2 .wp-block-button__link:hover{
+    border: 2px solid #fff;
+    background: transparent !important;
+}
+/* Fashion Categroy Section */
+.fashion-section{
+    margin-top: -5em;
+    background: #fff;
+    position: relative;
+    padding: 0 25px 0;
+    border-radius: 4px;
+}
+.fashion-section .fashion-image img, .fashion-section .fashion-mid-image img{
+    border-radius: 4px;
+}
+.fashion-section .wp-block-columns{
+    gap: 15px;
+}
+.fashion-section .fashion-image{
+    position: relative;
+}
+.fashion-section .fashion-image .wp-block-cover__inner-container{
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+}
+.fashion-section .fashion-mid-image .wp-block-cover__inner-container{
+    position: absolute;
+    bottom: 5%;
+    text-align: center;
+}
+.fashion-section .fashion-mid-image .wp-block-cover__inner-container .wp-block-buttons{
+    margin-top: 10px;
+}
+.fashion-section .fashion-image .wp-block-cover__inner-container p:after{
+    content: "\f054";
+    font-family: 'Font Awesome 5 Free';
+    font-size: 14px;
+    font-weight: 900;
+    position: absolute;
+    right: 10%;
+    top: 80%;
+}
+.fashion-section .fashion-mid-image .wp-block-buttons{
+    display: flex;
+    justify-content: center;
+}
+.fashion-section .fashion-mid-image .wp-block-buttons .wp-block-button__link:hover{
+    background: #000 !important;
+}

@@ -1,0 +1,100 @@
+/* Banner Section */
+.banner-section .banner-content{
+    margin-left: 15%;
+}
+.banner-section .banner-content p{
+    line-height: 1.8;
+}
+.banner-section .banner-btn1, .banner-section .banner-btn2{
+    display: inline-block;
+}
+.banner-section .banner-btn1 a{
+    border: 2px solid #fff;
+    padding: 8px 15px;
+}
+.banner-section .banner-btn1 a:hover{
+    background: #D49E8D !important;
+    border: 2px solid transparent;
+}
+.banner-section .banner-btn2 a, .fashion-section .fashion-mid-image .wp-block-buttons a{
+    padding: 8px 15px;
+    border: 2px solid transparent;
+}
+.banner-section .banner-btn2 a:hover{
+    border: 2px solid #fff;
+    background: transparent !important;
+}
+/* Fashion Categroy Section */
+.fashion-section{
+    margin-top: -5em;
+    background: #fff;
+    position: relative;
+    padding: 25px;
+    border-radius: 4px;
+}
+.fashion-section .fashion-image img, .fashion-section .fashion-mid-image img{
+    border-radius: 4px;
+}
+.fashion-section .wp-block-columns{
+    gap: 15px;
+}
+.fashion-section .fashion-image{
+    position: relative;
+}
+.fashion-section .fashion-image .wp-block-cover__inner-container{
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+}
+.fashion-section .fashion-mid-image .wp-block-cover__inner-container{
+    position: absolute;
+    bottom: 5%;
+    text-align: center;
+}
+.fashion-section .fashion-image .wp-block-cover__inner-container p:after{
+    content: "\f054";
+    font-family: 'Font Awesome 5 Free';
+    font-size: 14px;
+    font-weight: 900;
+    position: absolute;
+    right: 10%;
+    bottom: 35%;
+}
+.fashion-section .fashion-mid-image .wp-block-buttons{
+    display: flex;
+    justify-content: center;
+}
+.fashion-section .fashion-mid-image .wp-block-buttons a:hover{
+    background: #000 !important;
+}
+/* Media */
+@media screen and (max-width: 720px) {
+    .banner-section .banner-content{
+        text-align: center;
+        margin-left: 0;
+    }
+    .banner-section .banner-content h1{
+        font-size: 35px !important;
+    }
+    .banner-section .banner-btn1 a{
+        margin-bottom: 20px;
+    }
+    .fashion-section{
+        padding: 15px;
+    }
+}
+@media screen and (min-width: 721px) and (max-width: 999px) {
+    .banner-section .banner-content {
+        margin-left: 5%;
+    }
+}
+@media screen and (min-width: 1000px) and (max-width: 1200px) {
+    .banner-section .banner-content {
+        margin-left: 4%;
+    }
+}
+@media screen and (min-width: 1201px) and (max-width: 1500px){
+    .banner-section .banner-content {
+        margin-left: 5%;
+    }
+}
